@@ -1,0 +1,144 @@
+* {
+	margin: 0; padding: 0; list-style-type: none;
+}
+.cf {
+		clear: both;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	 margin: 10px auto; padding: 10px auto;
+}
+
+.home-wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.home-wrapper .img-left img{
+	border-radius: 100px;
+	height: 150px; 
+	width: 150px; 
+	margin: 10px 50px;
+	float: left;
+}
+.home-wrapper .my-info{
+	display: inline;
+	float: right;
+	margin: 10px 60px;
+}
+
+.home-wrapper .home-slider {
+	height: 50px;
+	background-color: grey;
+}
+
+.home-wrapper .nav {
+	margin-top: 30px;
+}
+.home-wrapper .nav ul li {
+	border: 2px solid red;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.home-wrapper .nav ul li a {
+	text-decoration: none;
+	margin-left: 60px;
+	padding: 220px;
+	color: #2D2D2D;
+}
+
+.home-wrapper .nav ul li:hover {
+	background-color: yellow;
+}
+
+
+.aboutme-wrapper {
+	width: 50%;
+	margin: 0px auto;
+}
+
+.aboutme-wrapper header h2 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*.aboutme-wrapper .aboutme-img {
+
+}*/
+
+.resume-wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.resume-wrapper header {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.resume-wrapper #my-profile {
+	margin-top: 20px;
+}
+
+.resume-wrapper #my-profile  h4{
+ 	margin-top: 20px;
+ 	color: #9E4055;
+}
+
+
+.contactme-wrapper {
+	width: 50%;
+	margin: 0px auto;
+}
+
+.contactme-wrapper header { 
+	text-align: center;
+	margin-top: 20px;
+}
+
+.contactme-wrapper .google-map {
+	height: 100px;
+	border:2px solid black;
+	margin-top: 20px;
+}
+
+.contactme-wrapper .google-map p {
+	text-align: center;
+	padding: 40px;
+}
+
+.contactme-wrapper .contact-info  {
+	margin: 20px auto;
+	border:1px solid black;
+	width: 40%;
+	padding: 10px;
+	float: left;
+
+}
+
+.contactme-wrapper .contact-info p a {
+	text-decoration: none;
+}
+
+.contactme-wrapper .contact-info footer ul li  {
+	display: inline-block;
+	margin-top: 10px;
+	
+} 
+
+.contactme-wrapper .contact-info1 {
+	margin: 20px auto;
+	padding: 10px;
+	width: 30%;
+	float: right;
+	border:1px solid black;
+}
+
+.contactme-wrapper .contact-info1 ul li {
+	margin-bottom: 5px;
+}
